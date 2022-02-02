@@ -24,7 +24,6 @@ h2 {
     font-weight: 700;
 }
 
-
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -42,4 +41,25 @@ h2 {
 .clearfix {
     display: block;
 }
+
+
+nav ul li a:hover, nav ul li.active a {
+    color: #0088cc;
+}
+.menu {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+.menu:before {
+    content: "\f0c9";
+    display: inline-block;
+    font: normal normal normal 24px/1 FontAwesome;
+    color: #0088cc;
+}
+.menu.activeMenu:before {
+    content: "\f00d";
+}
+
 
