@@ -12,33 +12,40 @@ body {
 
 @font-face {font-family: "MAZIUS REVIEW 20.09"; src: url("//db.onlinewebfonts.com/t/7e5d4b5e37c0623759cbed868eb8c2ba.eot"); src: url("//db.onlinewebfonts.com/t/7e5d4b5e37c0623759cbed868eb8c2ba.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7e5d4b5e37c0623759cbed868eb8c2ba.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7e5d4b5e37c0623759cbed868eb8c2ba.woff") format("woff"), url("//db.onlinewebfonts.com/t/7e5d4b5e37c0623759cbed868eb8c2ba.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7e5d4b5e37c0623759cbed868eb8c2ba.svg#MAZIUS REVIEW 20.09") format("svg"); }
 h1 {
-	text-align: left;
 	font: normal normal normal 57px/68px "MAZIUS REVIEW 20.09";
 	letter-spacing: 0px;
 	color: #292929;
 	opacity: 1;
+	display: inline;
 	
 }
 @font-face { font-family: Outfit; 
 			 src: url('https://fonts.googleapis.com/css?family=Outfit'); } 
 h2 {
-    text-align: left;
-	text-decoration: underline;
 	font: normal normal normal 28px/35px Outfit;
 	letter-spacing: 0px;
 	color: #292929;
 	opacity: 1;
+	display: inline;
+}
+
+a {
+  color: #292929;
+  text-decoration: none; 	
 }
 
 
-/* Add a black background color to the top navigation */
-.topnav {
-    overflow: hidden;
-	text-decoration: none;
+.Silvio {
+    /*Your code here, like:*/
+  color: #292929;
+  list-style-type: none;
+  margin: 1%;
+  padding: 0;
+  display: inline;
+  
 }
 
-
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-  float: right;
+.Silvio .Header {
+  float:right;
+  margin: 1%;
 }
