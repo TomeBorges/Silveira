@@ -16,12 +16,6 @@ body {
 			 src: url('https://fonts.googleapis.com/css?family=Outfit'); } 
 
 
-a {
-  color: #292929;
-  text-decoration: none; 	
-}
-
-
 .Silvio {
   color: #292929;
   list-style-type: none;
@@ -31,12 +25,22 @@ a {
   
 }
 
+a {
+	text-decoration: none;
+	color: #292929;	
+}
+a:hover {
+	text-decoration: none;
+	color: #292929;	 
+}
+
 .Silvio .Header .title {
 	font: normal normal normal 57px/68px "MAZIUS REVIEW 20.09";
 	letter-spacing: 0px;
 	color: #292929;
 	opacity: 1;
 	display: inline;
+	text-decoration: none;
 }
 .Silvio .Header .Allsections {
 	float:right;
@@ -47,6 +51,7 @@ a {
 	color: #292929;
 	opacity: 1;
 	display: inline;
+	text-decoration: none; 
 }
 .Silvio .Header .Allsections .sectionity{
 	margin-inline: 20px;
